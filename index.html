@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="clock.css">
+    <script defer src="https://unpkg.com/vue@next"></script>
+    <script defer src="./scripts/app.js"></script>
     <title>Analogue Clock</title>
 </head>
 <body>
-    <canvas id="canvas" width="600" height="600"></canvas>
-
-    <script src="clock.js"></script>
+    <p>
+       Hello {{hours}} : {{minutes}} : {{seconds}}
+    </p>
+    <canvas id="canvas" width="900" height="500"></canvas>
 </body>
 </html>
